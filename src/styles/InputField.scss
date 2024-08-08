@@ -1,0 +1,39 @@
+.input-field {
+    display: flex;
+    border-top: 1px solid #e0e0e0;
+    padding: 12px;
+    background-color: #ffffff;
+  
+    input {
+      flex: 1;
+      padding: 12px;
+      border: 1px solid #e0e0e0;
+      border-radius: 24px;
+      font-size: 0.9rem;
+      outline: none;
+      background-color: #f7f7f7;
+      color: #333333;
+  
+      &:focus {
+        border-color: #007bff;
+        box-shadow: 0 0 0 2px rgba(0, 123, 255, 0.25);
+      }
+    }
+  
+    button {
+      margin-left: 12px;
+      padding: 12px 20px;
+      background-color: #007bff;
+      color: #ffffff;
+      border: none;
+      border-radius: 24px;
+      font-size: 0.9rem;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+  
+      &:hover {
+        background-color: #0056b3;
+      }
+    }
+  }
+  
